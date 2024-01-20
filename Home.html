@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+ 
+    <style>
+ body {
+   background-color: #000;
+   color: rgb(255, 255, 255);
+ 
+ }
+  
+.navbar-nav a {
+    border-radius: 5px;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    transition: background-color 0.3s ease;
+}
+.navbar-nav a:hover {
+    background-color:orange !important;
+    color:black !important;
+}
+.navbar-nav a:visited {
+    color: rgb(255, 255, 255);
+}
+.navbar.navbar{
+    background-color: #000; 
+}
+.carousel.slide.w-100{
+  height: 300px;
+}
+.space {
+    margin-top: 170px; /* Default margin for extra-small screens */
+    margin-top: 0; /* Reset margin for extra-small screens */
+
+    /* Add top margin for medium screens and larger */
+    margin-top: 1.5rem; /* You can adjust the spacing based on your design */
+}
+
+.carousel.slide {
+      max-height: 400px;
+}
+.carousel-caption{
+    text-align: center;
+}
+.card {
+  border: 1px solid #000;
+  transition: border-color 0.3s ease-in-out;
+}
+  .card:active {
+  border: 1px solid red !important;
+}
+.card:hover {
+  border-color: #FFA500; /* Orange color for border on hover */
+  transform: scale(1.05) !important ;
+}
+.card{
+  background-color: #000000
+}
+.card{
+  color: white;
+}
+@keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .heading1 {
+            opacity: 0; /* Initial opacity set to 0 */
+            animation: fadeIn 1s ease-in-out forwards; 
+        }
+        .card{
+          opacity: 0; /* Initial opacity set to 0 */
+            animation: fadeIn 1s ease-in-out forwards; 
+        }
+        .navbar-expand-lg{
+          opacity: 0; /* Initial opacity set to 0 */
+            animation: fadeIn 1s ease-in-out forwards; 
+        }
+        .h1{
+          opacity: 0; /* Initial opacity set to 0 */
+            animation: fadeIn 1s ease-in-out forwards; 
+}
+.responsive-box  {
+  margin-bottom: 20px;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 10px;
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  padding-bottom: 3px;
+  text-align: center;
+    }
+    .responsive-box {
+  background: rgba(255, 255, 255, 0.1); /* Adjust opacity if needed */
+  padding: 20px;
+  border-radius: 10px;
+  backdrop-filter: blur(20px); /* Adjust blur intensity */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+} 
+/* Start of social meadia accounts */
+  html {
+  box-sizing: border-box;
+  background: #f3f3f3;
+}
+.connect {
+    margin-top: -150px; 
+    
+}
+
+*,
+*:after,
+*:before {
+  box-sizing: inherit;
+  
+}
+
+.clip {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+.svg--source {
+  display: none
+}
+
+.svg--icon {
+  max-width: 3.5rem;
+  max-height: 3.5rem;
+  display: block;
+  margin: 0.5 auto;
+  fill: currentColor
+}
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.share {
+  width: 3.5rem;
+  height: 3.5rem;
+  float: left;
+  margin: .0.5rem 1rem 0.5rem 0;
+  color: #353c4a;
+  border: 0.125rem solid #f3f3f3;
+  box-shadow: 0 0 8px 0 rgba(50, 50, 50, 0.15);
+  border-radius: 50%;
+  transition: 250ms;
+  
+   &:last-child {
+    margin-right: 0
+  }
+  
+  &:hover,
+  &:focus {
+    background: #f1f1f1;
+  }
+  
+  &:focus {
+    outline-color: inherit;
+  }
+}
+
+.twitter {
+  &:hover,
+  &:focus {
+    color: #00ACED;
+    box-shadow: 0 0 24px 0 #00ACED
+  }
+}
+.pinterest {
+  &:hover,
+  &:focus {
+    color: #bd081c;
+    box-shadow: 0 0 24px 0 #bd081c
+  }
+}
+
+.youtube {
+  &:hover,
+  &:focus {
+    color: #cd201f;
+    box-shadow: 0 0 24px 0 #cd201f
+  }
+}
+
+.facebook {
+  &:hover,
+  &:focus {
+    color: #3b5998;
+    box-shadow: 0 0 24px 0 #3b5998
+  }
+}
+
+.google 
+  &:hover,
+  &:focus {
+    color: #dd4b39;
+    box-shadow: 0 0 24px 0 #dd4b39
+  }
+  .nav-link lord-icon {
+      width: 40px;
+      height: 20px;
+      transition: transform 0.3s ease-out;
+    }
+
+    /* Define styles for the hover effect on the button */
+    .nav-link:hover lord-icon {
+      transform: scale(1.2);
+    }
+    .footer{
+      background-color: #222222;
+    }
+/*End of social media accounts*/
+/*opening hours */
+.modal-content {
+  margin-bottom: 20px;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 10px;
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  padding-bottom: 3px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.1); /* Adjust opacity if needed */
+  padding: 20px;
+  backdrop-filter: blur(20px); /* Adjust blur intensity */
+}
+.modal-body {
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 0 0 10px 10px;
+  padding: 20px; /* Adjust padding as needed */
+  text-align: center;
+  backdrop-filter: blur(10px);
+}
+.modal-body table {
+  width: 100%;
+  margin-bottom: 20px;
+  border-collapse: collapse;
+}
+.modal-body th, .modal-body td {
+  padding: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.modal-body th {
+  background: rgba(255, 255, 255, 0.7);
+}
+
+.modal-body td {
+  background: rgba(255, 255, 255, 0.9);
+}
+.close {
+  color: #111111; /* Dark color for the button */
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+.close:hover {
+  color: #fc0000; 
+  text-shadow: 0 0 5px rgba(41, 41, 41, 0.5);
+}
+
+/* end of opening hours */
+    </style>
+</head>
+<body>
+    <!--Nav bar start-->
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="Home.html"><img src="Pictures/logo.png" alt="" height="80px"></a>
+          <h1 class="navbar-title mt-3 mb-3" style="padding-right: 30px;">Breezy Bite <span class="text-danger">Bakery</span></h1>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item ">
+                <a class="nav-link ms-md-3 ms-lg-4 fs-5 font-weight-bold responsive-text-lg" aria-current="page" href="#"> <script src="https://cdn.lordicon.com/lordicon.js"></script>
+                  <lord-icon
+                      src="https://cdn.lordicon.com/cnpvyndp.json"
+                      trigger="hover"
+                      colors="primary:#ffffff"
+                      style="width:20px;height:20px">
+                  </lord-icon>Home</a>
+              </li>
+              <li class="nav-item ms-md-3 ms-lg-5 fs-5">
+                <a class="nav-link" href="Gallery.html"><script src="https://cdn.lordicon.com/lordicon.js"></script>
+                  <lord-icon
+                      src="https://cdn.lordicon.com/laqlvddb.json"
+                      trigger="hover"
+                      stroke="bold"
+                      colors="primary:#ffffff,secondary:#ffffff"
+                      style="width:20px;height:20px">
+                  </lord-icon>Gallery </a>
+              </li>
+              <li class="nav-item ms-md-3 ms-lg-5 fs-5">
+                <a class="nav-link"aria-current="page" href="contact-us.html"><script src="https://cdn.lordicon.com/lordicon.js"></script>
+                  <lord-icon
+                      src="https://cdn.lordicon.com/fdxqrdfe.json"
+                      trigger="hover"
+                      colors="primary:#ffffff"
+                      style="width:25px;height:25px">
+                  </lord-icon>ContactUs</a>
+              </li>
+              <li class="nav-item ms-md-3 ms-lg-5 fs-5">
+                <a class="nav-link"aria-current="page" href="About.html"><script src="https://cdn.lordicon.com/lordicon.js"></script>
+                  <lord-icon
+                      src="https://cdn.lordicon.com/jnzhohhs.json"
+                      trigger="hover"
+                      colors="primary:#ffffff"
+                      style="width:25px;height:20px">
+                  </lord-icon>AboutUs</a>
+              </li>
+             <li class="nav-item ms-md-3 ms-lg-5 fs-5">
+                 <a class="nav-link"aria-current="page" href="Location.html"><script src="https://cdn.lordicon.com/lordicon.js"></script>
+                  <lord-icon
+                      src="https://cdn.lordicon.com/surcxhka.json"
+                      trigger="hover"
+                      colors="primary:#ffffff,secondary:#ffffff"
+                      style="width:20px;height:20px">
+                  </lord-icon>Location</a>
+              </li>
+              <li class="nav-item ms-md-3 ms-lg-5 fs-5">
+                <a class="nav-link" href="#" data-toggle="modal" data-target="#openingHoursModal">
+                  <script src="https://cdn.lordicon.com/lordicon.js"></script>
+                 <lord-icon
+                     src="https://cdn.lordicon.com/qvyppzqz.json"
+                     trigger="hover"
+                     colors="primary:#ffffff,secondary:#ffffff"
+                     style="width:20px;height:20px">
+                 </lord-icon>Opening Hours
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav> 
+      <!--Nav bar end-->
+      <!--Time table-->
+      <div class="modal fade" id="openingHoursModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Opening Hours</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <td>Monday</td>
+                      <td>6:00 A.M</td>
+                      <td>10:30 P.M</td>
+                    </tr>
+                    <tr>
+                      <td>Tuesday</td>
+                      <td>6:00 A.M</td>
+                      <td>10:30 P.M</td>
+                    </tr>
+                    <tr>
+                      <td>Wednesday</td>
+                      <td>6:00 A.M</td>
+                      <td>10:30 P.M</td>
+                    </tr>
+                    <tr>
+                      <td>thursday</td>
+                      <td>6:00 A.M</td>
+                      <td>10:30 P.M</td>
+                    </tr>
+                    <tr>
+                      <td>friday</td>
+                      <td>6:00 A.M</td>
+                      <td>10:30 P.M</td>
+                    </tr>
+                    <tr>
+                      <td>Special days</td>
+                      <td>--</td>
+                      <td>--</td>
+                    </tr>
+                    <tr>
+                      <td>Poya day</td>
+                      <td>8:60 A.M</td>
+                      <td>4:00 PM</td>
+                    </tr>
+                </body>
+              </table>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--End Time table-->
+      <div class="container h1">
+        <div class="row">
+          <div class="col-sm-12 col-md-6">
+            <div class=" mt-4">
+            <div class="heading p-5 ml-2 display-5">
+              Experience the flavor that has been delighting customers for<span class="text-danger"> over 40 years </span> in kandy.
+            </div>
+          </div>
+          </div> <!--End of col-sm-6-->
+          <div class="col-sm-12 col-md-6 mt-auto">
+            <!--carousel-->
+            <div id="carouselExampleAutoplaying" class="carousel slide mx-auto w-55 img-fluid" style="height: 500px; width: 500px" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="Pictures/hamburger-.png" class="d-block w-100" alt="hamburger">
+                </div>
+                <div class="carousel-item">
+                  <img src="Pictures/preview.png " class="d-block w-100" alt="rotii">
+                </div>
+                <div class="carousel-item">
+                  <img src="Pictures/2preview.png" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </div>
+              </button>
+            </div>
+            <!--End carousel-->
+          
+        </div><!--end of row-->
+      </div><!--End of container-->
+      
+      <hr class="space">
+       <h1 class=" heading1 text-center">Weeks <span class="text-danger">Special &#x1F525</span></h1>
+      <!--Start of cards-->
+      <div class="container cards pt-3">
+        <div class="row">
+          <div class="col-12 col-sm-6 mb-4">
+            <a href="Gallery.html">
+            <div class="card">
+              <img src="Pictures/burger bucket offer.png" class="card-img-top" alt="">
+              <div class="card-body">
+              </a>
+                <p class="card-text">Enjoy tasty burgers with juicy chicken, tomatoes, and fresh veggies in a soft bun! 12  cost only <span class="text-success">Rs.1800</span> and give you a delicious mix of flavors.</p>
+              </div>
+            </div>
+          </div>
+      
+          <div class="col-12 col-sm-6 mb-4">
+            <a href="Gallery.html">
+            <div class="card">
+              <img src="Pictures/offer2.png" class="card-img-top"  alt="...">
+              <div class="card-body">
+              </a>
+                <p class="card-text">Enjoy 2 cups of juice, 2 mini burgers, and snacks for only <span class="text-success">Rs. 1400</span>. It's a tasty combo with refreshing drinks, small burgers, and yummy snacks.".</p>
+              </div>
+            </div>
+          </div>
+      
+          <div class="col-12 col-sm-6 mb-4">
+            <a href="Gallery.html">
+            <div class="card">
+              <img src="Pictures/offer 3.png " class="card-img-top" alt="...">
+              <div class="card-body">
+              </a>
+                <p class="card-text">Try our tasty rotti with tender chicken, sorse, and mint leaves for only <span class="text-success">Rs.350</span>. It's a delicious mix of flavors that will make your taste buds happy.</p>
+              </div>
+            </div>
+          
+          </div>
+          <div class="col-12 col-sm-6 mb-4">
+            <a href="Gallery.html">
+            <div class="card">
+              <img src="Pictures/food - roti.png" class="card-img-top"  alt="...">
+              <div class="card-body">
+              </a>
+                <p class="card-text">Enjoy the tasty Rotti Roll, filled with fresh ingredients like crunchy carrots, savory onions, and a mix of flavorful vegetables. It's only <span class="text-success">Rs.250</span>.</p>
+              </div>
+            </div>
+          
+          </div>
+        </div><!--End of row-->
+      </div><!--End of container-->
+            
+  <hr>
+  
+   <!--conatiner-->
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-sm-4 mb-4">
+           <img src="Pictures/background.png" alt="" height="500px" img="img-fluid"> 
+          </div>
+           <div class="col-12 col-sm-4 mb-3" style="padding-top: 60px;">
+           <p class="text-warning fs-5">Welcome to Breezy Bite Bakery, your destination for real fast food you can trust completely.</p>
+            <h2 style="padding-top: 30px;">"Handmade, Prepared Fresh, and Simply Delicious!"</h1>
+            <h3 class="text-danger"style="padding-top: 20px;">where every bite tells a story.</h3>
+            <div class=" col-10  d-flex justify-content-center mt-5 ">
+              <a href="Gallery.html" class="btn btn-danger" role="button">Order Now</a>
+          </div>
+          </div>
+          <div class="col-12 col-sm-4 mb-4">
+            <script src="https://cdn.lordicon.com/lordicon.js"></script>
+<lord-icon
+    src="https://cdn.lordicon.com/mwgfcdaj.json"
+    trigger="hover"
+    style="width:250px;height:500px">
+</lord-icon>
+          </div>  
+           
+      </div><!--End of row-->
+    </div><!--End of container-->
+   <!--end of container-->
+ 
+  <hr>
+  <!--About us start -->
+  <!-- About us start -->
+  
+
+  <div class="row">
+      <div class="col-sm-12">
+          <div class="responsive-box custom-margin-top ">
+              <div class="display-5 display-sm-4">
+                <script src="https://cdn.lordicon.com/lordicon.js"></script>
+<lord-icon
+    src="https://cdn.lordicon.com/yqiuuheo.json"
+    trigger="hover"
+    colors="primary:#ffffff,secondary:#b4b4b4"
+    style="width:30px;height:40px">
+</lord-icon>
+              Where every <span class="text-danger"> bite  </span>  tells a story
+              </div>
+            <p>Welcome to Breezy Bite Bakery, a culinary journey that began nearly 40 years ago near Kandy. Starting as a small bakery focused on essentials like bread, we've grown into a beloved establishment offering a diverse menu, including delicious fast food. Committed to our community, we're expanding our reach online to make ordering our delightful treats easier. At Breezy Bite Bakery, we aim to bring joy through our baked goods and fast food, crafting a friendly atmosphere in all seven branches. Join us as we continue to grow, innovate, and bring the best of tasty traditions to your table.</p>
+              <!-- ... content for the Mission box ... -->
+          </div> <!--End of responsive-box1-->
+      </div><!--End of col-sm-6 -->
+      <div class="col-sm-7" style="padding-top:25px;">
+  </div><!--end of row -->
+</div><!--End of container-->
+<!-- About us end -->
+</section>
+ <!--About us end-->
+
+
+<!-- footer part -->
+<footer class="footer">
+  <div class="container">
+    <div class="row mb-5 pb-3 no-gutters">
+      <div class="col-md-4 mb-md-0 mb-4 d-flex">
+        <div class="con con-1 w-100 py-5">
+          <div class="con-info w-100 text-center">
+              <script src="https://cdn.lordicon.com/lordicon.js"></script>
+              <lord-icon
+                src="https://cdn.lordicon.com/wzrwaorf.json"
+                trigger="hover"
+                colors="primary:#ffffff,secondary:#ffffff"
+                style="width:50px;height:50px">
+              </lord-icon>
+              <div class="text">
+              <span>(+94) 1234 5678</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-md-0 mb-4 d-flex">
+        <div class="con con-2 w-100 py-5">
+          <div class="con-info w-100 text-center">
+            <div class="icon d-flex align-items-center justify-content-center">
+              <span class= <script src="https://cdn.lordicon.com/lordicon.js"></script>
+                <lord-icon
+                    src="https://cdn.lordicon.com/ebjjjrhp.json"
+                    trigger="hover"
+                    colors="primary:#ffffff,secondary:#fffff"
+                    style="width:50px;height:50px">
+                </lord-icon></span>
+            </div>
+            <div class="text">
+              <span>Breezy Bite Bakery@email.com</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-md-0 mb-4 d-flex">
+        <div class="con con-3 w-100 py-5">
+          <div class="con-info w-100 text-center">
+            <div class="icon d-flex align-items-center justify-content-center">
+              <span class="ion-ios-pin"></span>
+            </div>
+            <script src="https://cdn.lordicon.com/lordicon.js"></script>
+<lord-icon
+    src="https://cdn.lordicon.com/tdtlrbly.json"
+    trigger="hover"
+    colors="primary:#ffffff,secondary:#ffffff"
+    style="width:50px;height:50px">
+</lord-icon>
+            <div class="text">
+              <span>B34, Thimbiriyawa, Kandy, Sri Lanka </span><div class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10444.02974138808!2d80.63358811509714!3d7.2922348198323395!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae3662be8243d83%3A0x9c444506ec1ff527!2sKFC!5e0!3m2!1sen!2slk!4v1705520804081!5m2!1sen!2slk" width="100%" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Breezy Bite Bakery branches1</h5>
+                      <p class="card-text">6:00 A.M - 10:30 P.M</p>
+                    </div>
+                  </div>
+                </div>    
+              </div>
+              
+          </div>
+        </div>
+      </div>
+    </div>
+     <!-- Start of social media -->
+     <svg class="svg--source" width="" height="" aria-hidden="true">
+
+      <symbol id="svg--twitter" viewbox="0 -7 15 30">
+        <path d="M15.36 3.434c-0.542 0.241-1.124 0.402-1.735 0.476 0.624-0.374 1.103-0.966 1.328-1.67-0.583 0.346-1.23 0.598-1.917 0.733-0.551-0.587-1.336-0.954-2.205-0.954-1.668 0-3.020 1.352-3.020 3.019 0 0.237 0.026 0.467 0.078 0.688-2.51-0.126-4.735-1.328-6.224-3.155-0.261 0.446-0.41 0.965-0.41 1.518 0 1.048 0.534 1.972 1.344 2.514-0.495-0.016-0.961-0.151-1.368-0.378 0 0.013 0 0.025 0 0.038 0 1.463 1.042 2.683 2.422 2.962-0.253 0.069-0.52 0.106-0.796 0.106-0.194 0-0.383-0.018-0.568-0.054 0.384 1.2 1.5 2.073 2.821 2.097-1.034 0.81-2.335 1.293-3.75 1.293-0.244 0-0.484-0.014-0.72-0.042 1.336 0.857 2.923 1.357 4.63 1.357 5.554 0 8.592-4.602 8.592-8.593 0-0.13-0.002-0.261-0.009-0.39 0.59-0.426 1.102-0.958 1.507-1.563z"
+        />
+      </symbol>
+    
+      <symbol id="svg--google" viewbox="-13 -13 72 72">
+        <path d="M48,22h-5v-5h-4v5h-5v4h5v5h4v-5h5 M16,21v6.24h8.72c-0.67,3.76-3.93,6.5-8.72,6.5c-5.28,0-9.57-4.47-9.57-9.75
+    s4.29-9.74,9.57-9.74c2.38,0,4.51,0.82,6.19,2.42v0.01l4.51-4.51C23.93,9.59,20.32,8,16,8C7.16,8,0,15.16,0,24s7.16,16,16,16
+    c9.24,0,15.36-6.5,15.36-15.64c0-1.17-0.11-2.29-0.31-3.36C31.05,21,16,21,16,21z" />
+      </symbol>
+    
+      <symbol id="svg--facebook" viewbox="0 -7 16 30">
+        <path d="M12 3.303h-2.285c-0.27 0-0.572 0.355-0.572 0.831v1.65h2.857v2.352h-2.857v7.064h-2.698v-7.063h-2.446v-2.353h2.446v-1.384c0-1.985 1.378-3.6 3.269-3.6h2.286v2.503z" />
+      </symbol>
+    
+      <symbol id="svg--pinterest" viewbox="-180 -180 850 850">
+        <path d="M430.149,135.248C416.865,39.125,321.076-9.818,218.873,1.642
+            C138.071,10.701,57.512,76.03,54.168,169.447c-2.037,57.029,14.136,99.801,68.399,111.84
+            c23.499-41.586-7.569-50.676-12.433-80.802C90.222,77.367,252.16-6.718,336.975,79.313c58.732,59.583,20.033,242.77-74.57,223.71
+            c-90.621-18.179,44.383-164.005-27.937-192.611c-58.793-23.286-90.013,71.135-62.137,118.072
+            c-16.355,80.711-51.557,156.709-37.3,257.909c46.207-33.561,61.802-97.734,74.57-164.704
+            c23.225,14.136,35.659,28.758,65.268,31.038C384.064,361.207,445.136,243.713,430.149,135.248z" />
+      </symbol>
+    
+      <symbol id="svg--youtube" viewbox="-150 -150 800 800">
+        <path d="M459,61.2C443.7,56.1,349.35,51,255,51c-94.35,0-188.7,5.1-204,10.2C10.2,73.95,0,163.2,0,255s10.2,181.05,51,193.8
+          C66.3,453.9,160.65,459,255,459c94.35,0,188.7-5.1,204-10.2c40.8-12.75,51-102,51-193.8S499.8,73.95,459,61.2z M204,369.75v-229.5
+          L357,255L204,369.75z" />
+      </symbol>
+    
+    </svg>
+    
+    <div class="wrapper">
+    <div class="connect">
+    
+      <a href="https://twitter.com/home" class="share twitter">
+        <svg role="presentation" class="svg--icon">
+          <use xlink:href="#svg--twitter" />
+        </svg>
+        <span class="clip">TWITTER</span>
+      </a>
+    
+      <a href="https://www.google.com/" rel="author" class="share google">
+        <svg role="presentation" class="svg--icon">
+          <use xlink:href="#svg--google" />
+          <span class="clip">GOOGLE +</span>
+        </svg>
+      </a>
+    
+      <a href="https://web.facebook.com/" rel="author" class="share facebook">
+        <svg role="presentation" class="svg--icon">
+          <use xlink:href="#svg--facebook" />
+          <span class="clip">FACEBOOK</span>
+        </svg>
+      </a>
+
+      <a href="https://www.pinterest.com/" class="share  pinterest">
+        <svg role="presentation" class="svg--icon">
+          <use xlink:href="#svg--pinterest" />
+          <span class="clip">PINTEREST</span>
+        </svg>
+      </a>
+    
+      <a href="https://www.youtube.com/" class="share  youtube">
+        <svg role="presentation" class="svg--icon">
+          <use xlink:href="#svg--youtube" />
+          <span class="clip">YOU-TUBE</span>
+        </svg>
+      </a>
+    
+    </div>
+    </div>
+      
+    </div>
+    <!-- End of social media -->
+    
+    <div class="container-fluid ml-0">
+      <div class="row">
+        <div class="col-md-3 mb-md-0 mb-4">
+          <h2 class="footer-heading">About</h2>
+          <ul class="list-unstyled">
+            <li><a href="About.html" class="text-light text-decoration-none">about us</a></li>
+            <li><a href="#" class="text-light text-decoration-none">Awards</a></li>
+            <li><a href="#" class="text-light text-decoration-none">Our Team</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3 mb-md-0 mb-4">
+          <h2 class="footer-heading">Company</h2>
+          <ul class="list-unstyled">
+            <li><a href="#" class="text-light text-decoration-none">our privacy and policy</a></li>
+            <li><a href="contact-us.html" class="text-light text-decoration-none">Contact us</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3 mb-md-0 mb-4">
+          <h2 class="footer-heading">Quick Links</h2>
+          <ul class="list-unstyled">
+            <li><a href="Home.html" class="text-light text-decoration-none">home</a></li>
+            <li><a href="Gallery.html" class="text-light text-decoration-none">Gallery page</a></li>
+            <li><a href="contact-us.html" class="text-light text-decoration-none">Contact us</a></li>
+            <li><a href="About.html" class="text-light text-decoration-none">About us</a></li>
+            <li><a href="Location.html" class="text-light text-decoration-none">Location</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3 mb-md-0 mb-4">
+          <h2 class="footer-heading">For you</h2>
+          <ul class="list-unstyled">
+            <li><a href="#" class="text-light text-decoration-none">Breezy Bite Bakery App</a></li>
+
+          </ul>
+        </div>
+      </div>
+    </div>
+  
+  
+      <div class="row mt-6 pt-4 border-top">
+          <div class="col-md-6 col-lg-10 mb-md-0 mb-4">
+              <p class="copyright mb-5">
+                ©Copyright  All rights reserved. The Breezy Bite Bakery name, logos, and related marks are trademarks of Breezy Bite Bakery, Inc
+              </p>
+          </div>
+      </div>
+  </div>
+</footer>
+<script src="js/bootstrap.bundle.js"></script>
+ 
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    
+
+
+</body>
+</html>
